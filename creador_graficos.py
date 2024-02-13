@@ -4,7 +4,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sb
 
-df = pd.read_csv('grafico.csv')
+df = pd.read_csv('csv/grafico.csv')
 
 sb.lineplot(x='x',y='y', data = df)
 

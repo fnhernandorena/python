@@ -4,7 +4,7 @@ import pandas as pd
 from pytube import YouTube
 
 #var excel
-file_path = 'urls.csv'
+file_path = 'csv/urls.csv'
 column_name = 'urls'
 
 def main():
